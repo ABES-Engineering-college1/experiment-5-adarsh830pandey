@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 5</title>
+</head>
+<body>
+    <footer align="center"><h1>Student Registration Form</h1></footer>
+        <form action="./response.html" name="Biodata" target="_blank" method="get"></form>
+          <hr>
+             <label for="name">Full Name:</label>
+             <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+             <br><br>
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" placeholder="Enter valid email address" required>
+             <br><br>
+             <label for="password">Password:</label>
+             <input type="password" id="password" name="password" placeholder="Enter your password" required>
+             <br><br>
+             <label for="gender">Gender:</label>
+             <input type="radio" id="male" name="gender">
+             <label for="male">Male</label>
+             <input type="radio" id="female" name="gender">
+             <label for="female">Female</label>
+             <input type="radio" id="others" name="gender">
+             <label for="others">Others</label>
+             <br><br>
+             <label for="select">Course:</label>
+             <select name="select" id="select">
+                <option> -- Select Course -- </option>
+                <option value="cse">CSE</option>
+                <option value="aiml">AIML</option>
+                <option value="ece">ECE</option>
+                <option value="mechanical">Mechanical</option>
+                <option value="electrical">Electrical</option>
+                <option value="aerospace">Aerospace</option>
+                </optgroup>
+             </select>
+             <br><br>
+             <label for="contact">Contact No:</label>
+             <input type="tel" id="contact" name="contact" placeholder="Enter phone number" required>
+             <br><br>
+             <label for="address">Address:</label><br>
+             <textarea id="address" name="address" rows="5" cols="50" placeholder="Enter your address"></textarea>
+             <br><br>
+             <input type="submit" value="Register">
+             <input type="reset" value="Clear">
+            <hr>
+             <footer align="center">&copy; 2025 Student Registration Portal</footer>
+        </form>
+</body>
+</html
